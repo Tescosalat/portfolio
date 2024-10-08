@@ -30,6 +30,7 @@ export default function Apple() {
             className="not-draggable reveal"
             src="/screenshot-a-1.png"
             fill={true}
+            alt="screenshot apple"
           />
         </div>
       </div>
@@ -52,6 +53,7 @@ export default function Apple() {
             className="not-draggable reveal"
             src="/screenshot-a-2.png"
             fill={true}
+            alt="screenshot apple"
           />
         </div>
       </div>
@@ -72,6 +74,7 @@ export default function Apple() {
               className="not-draggable reveal"
               src="/screenshot-a-3.png"
               fill={true}
+              alt="screenshot apple"
             />
           </div>
         </div>
@@ -84,6 +87,7 @@ export default function Apple() {
             style={{ margin: "10px" }}
             width={60}
             height={60}
+            alt="logo github"
           />
         </div>
         <div className="inline">

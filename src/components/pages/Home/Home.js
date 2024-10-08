@@ -74,6 +74,7 @@ export default function Home() {
                   className="border-radius"
                   src="/profile.png"
                   fill={true}
+                  alt="profile picture"
                 />
               </div>
             </div>
@@ -122,36 +123,42 @@ export default function Home() {
                     src="/socketio.svg"
                     width={40}
                     height={40}
+                    alt="logo socketio"
                   />
                   <Image
                     className="tech-icon"
                     src="/next-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo next"
                   />
                   <Image
                     className="tech-icon"
                     src="/js-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo javascript"
                   />
                   <Image
                     className="tech-icon"
                     src="/scss-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo scss"
                   />
                   <Image
                     className="tech-icon"
                     src="/mongodb-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo mongodb"
                   />
                   <Image
                     className="tech-icon"
                     src="/firebase-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo firebase"
                   />
                 </div>
               </Link>
@@ -166,12 +173,14 @@ export default function Home() {
                     src="/next-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo next"
                   />
                   <Image
                     className="tech-icon"
                     src="/scss-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo scss"
                   />
                 </div>
               </Link>
@@ -186,12 +195,14 @@ export default function Home() {
                     src="/next-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo next"
                   />
                   <Image
                     className="tech-icon"
                     src="/scss-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo scss"
                   />
                 </div>
               </Link>
@@ -244,6 +255,7 @@ export default function Home() {
                   style={{ margin: "10px" }}
                   width={60}
                   height={60}
+                  alt="logo github"
                 />
               </Link>
             </div>

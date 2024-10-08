@@ -40,13 +40,13 @@ export default function Thisweb() {
       <div className="horizontal max-width-large sub-section mobile-swap">
         <div className="half center reveal">
           <div className="controls-1">
-            <Image src="/controls-1.png" fill={true} />
+            <Image src="/controls-1.png" fill={true} alt="controls feature" />
           </div>
           <div className="controls-1">
-            <Image src="/controls-2.png" fill={true} />
+            <Image src="/controls-2.png" fill={true} alt="controls feature" />
           </div>
           <div className="controls-2">
-            <Image src="/controls-3.png" fill={true} />
+            <Image src="/controls-3.png" fill={true} alt="controls feature" />
           </div>
         </div>
         <div className="half">
@@ -77,10 +77,10 @@ export default function Thisweb() {
         </div>
         <div className="half center reveal">
           <div className="nav-1">
-            <Image src="/nav-1.png" fill={true} />
+            <Image src="/nav-1.png" fill={true} alt="navbar screenshot" />
           </div>
           <div className="nav-2">
-            <Image src="/nav-2.png" fill={true} />
+            <Image src="/nav-2.png" fill={true} alt="navbar screenshot" />
           </div>
         </div>
       </div>
@@ -151,6 +151,7 @@ export default function Thisweb() {
             style={{ margin: "10px" }}
             width={60}
             height={60}
+            alt="logo github"
           />
         </div>
         <div className="inline">

@@ -34,6 +34,7 @@ export default function Activiter() {
                     src="/js-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo javascript"
                   />
                   <p>Javascript</p>
                 </div>
@@ -43,6 +44,7 @@ export default function Activiter() {
                     src="/next-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo next"
                   />
                   <p>Next</p>
                 </div>
@@ -52,6 +54,7 @@ export default function Activiter() {
                     src="/mongodb-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo mongodb"
                   />
                   <p>MongoDB</p>
                 </div>
@@ -61,6 +64,7 @@ export default function Activiter() {
                     src="/firebase-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo firebase"
                   />
                   <p>Firebase</p>
                 </div>
@@ -71,6 +75,7 @@ export default function Activiter() {
                     src="/socketio.svg"
                     width={40}
                     height={40}
+                    alt="logo socketio"
                   />
                   <p>SocketIO</p>
                 </div>
@@ -80,6 +85,7 @@ export default function Activiter() {
                     src="/scss-logo.svg"
                     width={40}
                     height={40}
+                    alt="logo scss"
                   />
                   <p>SCSS</p>
                 </div>
@@ -96,6 +102,7 @@ export default function Activiter() {
               className="not-draggable reveal"
               src="/screenshot-1.png"
               fill={true}
+              alt="screenshot activiter"
             />
           </div>
         </div>
@@ -141,6 +148,7 @@ export default function Activiter() {
               className="not-draggable reveal"
               src="/screenshot-3.png"
               fill={true}
+              alt="screenshot activiter"
             />
           </div>
         </div>
@@ -152,6 +160,7 @@ export default function Activiter() {
               className="not-draggable reveal"
               src="/screenshot-4.png"
               fill={true}
+              alt="screenshot activiter"
             />
           </div>
         </div>
@@ -190,6 +199,7 @@ export default function Activiter() {
               className="not-draggable reveal"
               src="/screenshot-2.png"
               fill={true}
+              alt="screenshot activiter"
             />
           </div>
         </div>
@@ -202,6 +212,7 @@ export default function Activiter() {
             style={{ margin: "10px" }}
             width={60}
             height={60}
+            alt="logo github"
           />
         </div>
         <div className="inline">

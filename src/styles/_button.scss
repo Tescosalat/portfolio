@@ -1,0 +1,32 @@
+.button {
+  border-radius: 5px;
+  padding: 3px 12px 3px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid $primaryDark;
+  background-color: $primaryDarkTransparent;
+  z-index: 100;
+  pointer-events: auto;
+  transition: transform 100ms ease-in-out;
+
+  p {
+    margin: 5px;
+    user-select: none;
+  }
+
+  .icon-button {
+    margin-left: 5px;
+    color: $white;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: $primaryDarkTransparent2;
+  }
+
+  &:active {
+    cursor: pointer;
+    transform: scale(0.98);
+  }
+}

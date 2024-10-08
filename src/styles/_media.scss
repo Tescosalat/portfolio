@@ -1,0 +1,148 @@
+@media (max-width: 970px) {
+  nav {
+    height: 60px;
+  }
+
+  .sub-section {
+    margin-bottom: 8rem;
+  }
+  .sub-section-smaller-gap {
+    margin-bottom: 0;
+  }
+  .horizontal {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .portfolio-section {
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .half {
+    width: 100%;
+  }
+  .mobile-swap {
+    flex-direction: column-reverse;
+  }
+  .mobile-gap {
+    margin-bottom: 3rem;
+  }
+  .apple-text-mobile {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .horizontal {
+    flex-wrap: wrap;
+  }
+  .scrollbar {
+    width: 20px;
+  }
+  .github-link {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .p-mini {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .big-h1 {
+    font-size: 4rem;
+    margin: 20px;
+  }
+  .more-important {
+    font-size: 15px;
+  }
+  .technology-icons-container {
+    flex-wrap: wrap;
+  }
+  .tech-icon {
+    width: 20px;
+  }
+  .individual-project {
+    width: 50px;
+  }
+  .profile {
+    display: none;
+  }
+  .explore-button {
+    margin-top: 20px !important;
+  }
+  .technologies-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .technologies {
+    margin-bottom: 8rem;
+  }
+
+  .individual-project {
+    .two-rows {
+      transform: none !important;
+    }
+
+    &:hover .two-rows {
+      transform: none !important;
+    }
+  }
+  * {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
+  .button {
+    transition: transform 80ms ease-in-out;
+    &:hover {
+      background-color: $primaryDarkTransparent;
+    }
+    &:active {
+      cursor: pointer;
+      transform: scale(0.96);
+    }
+  }
+
+  //this web
+
+  .font-header {
+    font-size: 70px;
+  }
+
+  .color {
+    width: 80px;
+  }
+
+  .controls-1,
+  .controls-2,
+  .controls-3,
+  .nav-1,
+  .nav-2 {
+    height: 80px;
+  }
+
+  .font-container {
+    margin-top: 0;
+  }
+
+  //apple
+
+  .apple-image {
+    margin-bottom: 8rem;
+  }
+  .select-enabled {
+    user-select: all;
+  }
+  .button {
+    padding: 2px 5px 2px 5px;
+  }
+  .bigger-p {
+    font-size: 8px;
+  }
+}

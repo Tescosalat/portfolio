@@ -1,0 +1,126 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+
+  .layout-part {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border: 1px solid $primaryDark;
+  }
+}
+
+.controls-1 {
+  border: 1px solid $primaryDark;
+  margin: 5px;
+  position: relative;
+  height: 150px;
+  aspect-ratio: 328 / 260;
+}
+
+.controls-2 {
+  border: 1px solid $primaryDark;
+  margin: 5px;
+  position: relative;
+  height: 150px;
+  aspect-ratio: 98 / 260;
+}
+
+.nav-1 {
+  border: 1px solid $primaryDark;
+  margin: 5px;
+  position: relative;
+  height: 80px;
+  aspect-ratio: 140 / 132;
+}
+
+.nav-2 {
+  border: 1px solid $primaryDark;
+  margin: 5px;
+  position: relative;
+  height: 80px;
+  aspect-ratio: 286 / 132;
+}
+
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.color {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 5px;
+  width: 150px;
+  height: 250px;
+}
+
+.color-1 {
+  background-color: $white;
+}
+
+.color-2 {
+  background-color: $gray;
+}
+
+.color-3 {
+  background-color: $primaryLight;
+}
+
+.color-4 {
+  background-color: $primaryDark;
+}
+
+.color-5 {
+  background-color: $black;
+}
+
+.contrast-1 {
+  color: $black;
+}
+
+.contrast-2 {
+  color: $white;
+}
+
+.color-s-1 {
+  color: $white;
+  margin-right: 10px;
+}
+
+.color-s-2 {
+  color: $gray;
+  margin-right: 10px;
+}
+
+.color-s-3 {
+  color: $primaryLight;
+  margin-right: 10px;
+}
+
+.color-s-4 {
+  color: $primaryDark;
+  margin-right: 10px;
+}
+
+.color-s-5 {
+  color: rgb(83, 83, 83);
+  margin-right: 10px;
+}
+
+.font-header {
+  color: $white;
+  font-size: 200px;
+}
+
+.font-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 14rem;
+}

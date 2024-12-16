@@ -2,6 +2,7 @@ import { Inter, Montserrat, Poppins } from "next/font/google";
 import "@/styles/index.css";
 import Navbar from "@/components/Navbar";
 import { AppWrapper } from "@/context";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <AppWrapper>
           <Navbar />
           {children}
+          <SpeedInsights />
         </AppWrapper>
       </body>
     </html>

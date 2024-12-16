@@ -3,6 +3,7 @@ import "@/styles/index.css";
 import Navbar from "@/components/Navbar";
 import { AppWrapper } from "@/context";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           {children}
           <SpeedInsights />
+          <Analytics />
         </AppWrapper>
       </body>
     </html>
